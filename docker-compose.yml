@@ -34,6 +34,7 @@ services:
       volumes:
         - ./www:/www
         - ./bin/php-fpm/php-ini-overrides.ini:/etc/php/7.4/fpm/conf.d/99-overrides.ini
+        - ./bin/php-fpm/20-xdebug.ini:/etc/php/7.4/fpm/conf.d/20-xdebug.ini
       networks:
           testing_net:
               ipv4_address: 172.28.1.4
