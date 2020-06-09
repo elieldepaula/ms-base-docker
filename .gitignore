@@ -1,0 +1,10 @@
+.env
+bin/postgres
+
+/.idea
+www/vendor
+www/Homestead.json
+www/Homestead.yaml
+www/.env
+www/.phpunit.result.cache
+www/composer.lock
